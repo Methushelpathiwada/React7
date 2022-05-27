@@ -1,0 +1,113 @@
+*
+{
+    background-color:rgb(3, 32, 32);
+    color:aliceblue
+}
+.header
+{
+    display:grid;
+    grid-template-columns: 5fr 1fr;
+
+}
+
+.left
+{
+    text-shadow:  5px 5px 5px rgb(223, 181, 181);
+    font-size: 50px;
+
+}
+.menus
+{
+    text-shadow:  5px 5px 5px rgb(223, 181, 181);
+    font-family:cursive;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.menu:hover{
+    text-shadow:  5px 5px 5px rgb(13, 221, 41);
+    font-family:cursive;
+    color: Green;
+}
+.menu
+{
+
+    margin-right:20px ;
+}
+.home-box
+{
+    position: relative;
+    top:10rem;
+    left: 15rem;
+    border: 2px groove red;
+    width: 60%;
+    border-radius: 20px;
+    background-color: rgb(218, 109, 245);
+}
+.home-title
+{
+    text-align: center;
+    background-color: rgb(216, 119, 55);
+    color: black;
+    font-family: cursive;
+    text-shadow: 2px 2px 2px white ;
+}
+.home-para
+{
+    margin: 12px;
+    font-size: large;
+    background-color: rgb(218, 109, 245);
+    color:rgb(131, 28, 14);
+    font-family:cursive;
+}
+.btn
+{
+
+    border:  2px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+    top:-370px;
+    left: 58rem;
+    background-color: green;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+
+.form
+{
+    margin: 80px;
+    padding: 40px;
+    border: 2px groove white;
+    border-radius: 20px;
+    /* position: relative; */
+    background-color:rgb(245, 201, 201);
+
+}
+.form-header
+{
+    margin-top: 20px;
+    background-color:rgb(245, 201, 201);
+
+}
+
+.table
+{
+  
+    background-color:rgb(245, 201, 201);
+}
+th{
+    padding: 20px;
+    border-radius: 10px;
+    background-color:rgb(245, 201, 201);
+    color: rgb(10, 12, 128);
+    font-size: x-large;
+    font-family:cursive;
+    text-shadow: 2px 2px 3px skyblue;
+}
+td{
+    padding: 10px;
+    background-color: rgb(228, 228, 99);
+    color: brown;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
